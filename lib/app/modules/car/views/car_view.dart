@@ -38,7 +38,11 @@ class CarView extends GetView<CarController> {
           Text(
             'Price: ${controller.car.price.toString()}\$',
             style: TextStyle(fontSize: 24),
-          )
+          ),
+          Text(
+            'Availability: ${controller.car.availability.toString()}',
+            style: TextStyle(fontSize: 24),
+          ),
         ]),
       ),
     );
